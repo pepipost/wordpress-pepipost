@@ -1,0 +1,5 @@
+{
+    "require": {
+        "pepipost/pepipost-sdk-php": "v1.0.0"
+    }
+}

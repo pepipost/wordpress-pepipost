@@ -1,0 +1,12 @@
+.w-logo-img img { height: 80px; }
+textarea.code { width: 341px; height: 92px; }
+.wpfooter { display:none; }
+.plugin-text { text-align: center; }
+#message, #login_error { text-align: left; }
+#dateRangeDiv h4, #dateRangeForm { display: inline-block; }
+#dateRangeForm { float: right; margin-top: 10px; }
+.dspln { display: none; }
+
+#emailSearchForm { float: right;    margin-top: 5px; }
+#log_head { display: inline-block; }
+

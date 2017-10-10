@@ -1,0 +1,93 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "ff17a9d5b52e0fa3d418894dbf715b85",
+    "content-hash": "c06a7b882aac17cc1d4bdf971520a915",
+    "packages": [
+        {
+            "name": "itabrezshaikh/unirest-php",
+            "version": "2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/itabrezshaikh/unirest-php.git",
+                "reference": "9e0a023c9dad33ea82a5cb3b9a4ff761784c2fd4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/itabrezshaikh/unirest-php/zipball/9e0a023c9dad33ea82a5cb3b9a4ff761784c2fd4",
+                "reference": "9e0a023c9dad33ea82a5cb3b9a4ff761784c2fd4",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Unirest\\": "src/Unirest/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Unirest PHP",
+            "time": "2016-04-09 04:35:02"
+        },
+        {
+            "name": "pepipost/pepipost-sdk-php",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pepipost/pepipost-sdk-php.git",
+                "reference": "d9a85429c64d578aa0e31a75fc10af25dbe689df"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pepipost/pepipost-sdk-php/zipball/d9a85429c64d578aa0e31a75fc10af25dbe689df",
+                "reference": "d9a85429c64d578aa0e31a75fc10af25dbe689df",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "itabrezshaikh/unirest-php": "2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PepipostAPIV10Lib\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tabby @ Pepipost.",
+                    "email": "tabrez@pepipost.com",
+                    "homepage": "https://github.com/Pepipost",
+                    "role": "Co-Founder/Developer."
+                }
+            ],
+            "description": "Pepipost API documentation",
+            "homepage": "https://docs.pepipost.com/",
+            "keywords": [
+                "Pepipost API v1.0",
+                "api",
+                "sdk"
+            ],
+            "time": "2016-04-11 12:01:40"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

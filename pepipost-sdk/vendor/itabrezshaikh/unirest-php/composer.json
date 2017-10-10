@@ -1,0 +1,11 @@
+{
+  "name": "itabrezshaikh/unirest-php",
+  "description": "Unirest PHP",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Unirest\\": "src/Unirest/"
+    }
+  }
+}
