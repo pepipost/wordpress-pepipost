@@ -69,7 +69,7 @@ endif;
  * This function used to enqueue the required script files
  */
 function wp_pepipost_scripts_method() {
-	if ( is_admin() ) {
+    if ( false !== strpos( $hook, 'wp_pepipost' )  ) {
 		
 		wp_register_style( 'wp-pepipost', plugin_dir_url( __FILE__ ). 'css/wp-pepipost-ui.css', false, '1.11.4' );
 		wp_enqueue_style( 'wp-pepipost' );
